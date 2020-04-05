@@ -152,6 +152,19 @@ header{
 .Footer__Icon:hover .Footer__Icon a i{
     color: #e31535;
 }
+.Footer__Menu{
+    list-style:none
+}
+.Footer__Menu-item{
+    text-decoration: none;
+    color: white;
+}
+.Footer__Menu-item:hover{
+    text-decoration: none;
+    color: #e31535;
+}
+
+
 .btn__xl{
     font-family: 'Major Mono Display', monospace;
     background-color: black !important;

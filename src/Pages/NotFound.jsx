@@ -5,9 +5,9 @@ function NotFound() {
     return(
         <>
             <div className="NotFound__Content">
-                <span className="NotFound__Number">404</span> 
+                <span className="NotFound__Number ">404</span> 
                 <p className="NotFound__Messaje">Page Not Found</p>
-                <Link to="/" className="btn btn__xl">Go Back</Link>
+                <Link to="/" className="btn btn__xl vibrate">Go Back</Link>
             </div>
         </>
     )
