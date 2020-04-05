@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&display=swap');
+/* For Content */
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+/* For Titles */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* For Numbers */
+@import url('https://fonts.googleapis.com/css2?family=Codystar&display=swap');
+
+body{
+    overflow-x: hidden;
+    font-family: 'Major Mono Display', monospace;
+}
+::selection {
+    background: rgba(225, 48, 51, 0.705);
+    color: white;
+    text-shadow: 1px 1px #fff;
+}
+#App{
+    background-color: #F4F2F2;
+}
+
+#content{
+    min-height: 70vh;
+}
+footer{
+    min-height: 20vh;
+}
+header{
+    min-height: 10vh;
+}
+/* HOME */
+.Home__Link{
+    text-decoration: none;
+    color: black;
+}
+.Home__Number{
+    font-family: 'Codystar', cursive;
+    font-size: 3.5rem;
+}
+.Home__Item{
+    cursor: pointer;
+}
+.Home__Title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4.5rem;
+    margin: 0 0 !important;
+    pointer-events: fill;
+}
+.Home__Line {
+    height: 1px;
+    background-color: black;
+    margin-top: 0;
+}
+.Home__Link:hover{
+    text-decoration: none;
+    color: #e31535;
+}
+.Home__Link:hover .Home__Number{
+    background-color: black;
+    color: white;
+}
+/* Not found */
+.NotFound__Content{
+    text-align: right;
+}
+.NotFound__Messaje{
+    font-family: 'Major Mono Display', monospace;
+    font-size: 7rem;
+}
+.NotFound__Number{
+    font-family: 'Codystar', cursive;
+    font-size: 10rem;
+    /* background-color: black;
+    color: white; */
+    padding: 10px;
+}
+/* Header */
+
+.Top__Title{
+    font-family: 'Major Mono Display', monospace;
+    font-size: 1rem !important;
+    color: black;
+    text-align: right;
+    -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+.Top__Title:hover{
+    text-decoration: none;
+    color: #e31535;
+}
+.Top__Menu:hover{
+    text-decoration: none;
+    color: #e31535;
+}
+.Top__Menu{
+    font-family: 'Major Mono Display', monospace;
+    font-size: 1rem;
+    color: black;
+    text-align: right;
+}
+
+@-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+@keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+  
+
+/* Footer */
+
+.Footer__Title{
+    font-family: 'Major Mono Display', monospace;
+    font-size: 3.5rem;
+    color: white !important;
+    text-align: right;
+}
+.Footer__Content{
+    font-family: 'Major Mono Display', monospace;
+    font-size: 1.5rem;
+    color: white !important;
+    text-align: left;
+}
+.Footer__Icons{
+    font-size: 3.5rem;
+    color: white !important;
+    text-align: right;
+    display: flex;
+    align-content: center;
+}
+.Footer__Icons div {
+    margin: 0 10px;
+}
+.Footer__Icon:hover .Footer__Icon a i{
+    color: #e31535;
+}
+.btn__xl{
+    font-family: 'Major Mono Display', monospace;
+    background-color: black !important;
+    color: white !important;
+    font-size: 2.5rem !important;
+}
