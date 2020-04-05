@@ -5,32 +5,35 @@ function Home() {
     return(
         
         <>
-            <div className="Home__Item">
-                <Link to="Project" className="Home__Link">
+            <div className="Home__Item ">
+                <a to="Project" className="Home__Link">
                     <p className="Home__Title">
                         <span className="Home__Number" >#1</span>
                         Projet 1
                     </p>
+                    <a href="/" className="btn btn__xl btn-Home vibrate">Demo</a>
                     <hr className="Home__Line" />
-                </Link>
+                </a>
             </div>
-            <div className="Home__Item">
-                <Link to="Project" className="Home__Link">
+            <div className="Home__Item ">
+                <a to="Project" className="Home__Link">
                     <p className="Home__Title">
                         <span className="Home__Number" >#2</span>
-                        Projet 1
+                        Projet 2
                     </p>
+                    <a href="/" className="btn btn__xl btn-Home vibrate">Demo</a>
                     <hr className="Home__Line" />
-                </Link>
+                </a>
             </div>
-            <div className="Home__Item">
-                <Link to="Project" className="Home__Link">
+            <div className="Home__Item ">
+                <a to="Project" className="Home__Link">
                     <p className="Home__Title">
                         <span className="Home__Number" >#3</span>
-                        Projet 1
+                        Projet 3
                     </p>
+                    <a href="/" className="btn btn__xl btn-Home vibrate">Demo</a>
                     <hr className="Home__Line" />
-                </Link>
+                </a>
             </div>
             
             

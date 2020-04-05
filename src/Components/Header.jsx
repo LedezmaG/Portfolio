@@ -7,7 +7,7 @@ function Header() {
             <nav class="navbar navbar-inverse bg-transparent">
                 <div class="container-fluid">
                     <div class="navbar-header">
-                        <Link to="/" className="navbar-brand Top__Title">
+                        <Link to="/AboutMe" className="navbar-brand Top__Title">
                             David Israel <br/>
                             Ledezma Gurrola
                         </Link>

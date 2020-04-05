@@ -15,6 +15,14 @@ body{
     color: white;
     text-shadow: 1px 1px #fff;
 }
+.flex{
+    display: flex;
+}
+.center-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #App{
     background-color: #F4F2F2;
 }
@@ -33,6 +41,9 @@ header{
     text-decoration: none;
     color: black;
 }
+.Home__Link:hover .btn-Home{
+    display: block !important;
+} 
 .Home__Number{
     font-family: 'Codystar', cursive;
     font-size: 3.5rem;
@@ -52,8 +63,8 @@ header{
     margin-top: 0;
 }
 .Home__Link:hover{
-    text-decoration: none;
-    color: #e31535;
+    text-decoration: none !important;
+    color: #e31535 !important;
 }
 .Home__Link:hover .Home__Number{
     background-color: black;
@@ -149,7 +160,10 @@ header{
 .Footer__Icons div {
     margin: 0 10px;
 }
-.Footer__Icon:hover .Footer__Icon a i{
+.Footer__Social-Item{    
+    color: white;
+}
+.Footer__Social-Item:hover{    
     color: #e31535;
 }
 .Footer__Menu{
@@ -164,10 +178,56 @@ header{
     color: #e31535;
 }
 
-
 .btn__xl{
     font-family: 'Major Mono Display', monospace;
     background-color: black !important;
     color: white !important;
     font-size: 2.5rem !important;
+}
+.btn-Home{
+    margin-top: -6rem;
+    float: right !important;
+    display: none !important;
+}
+
+/* About me */
+.About__Title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+}
+.About__Content{
+    font-family: 'Major Mono Display', monospace;
+    font-size: 1.5rem;
+    background-color: white;
+    padding: 15px;
+}
+.About__Img{
+
+}
+.About__Content-Contact{
+    text-align: right;
+}
+.About__Contact a i{
+    margin-left: 20px;
+}
+.About__Icon{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5rem;
+    color: black;
+    
+}
+.About__Icon:hover{
+    text-decoration: none;
+    color: black;
+}
+.About__Icon-Text{
+    padding: 5px;
+}
+.About__Icon:hover .About__Icon-Text{
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+.About__Img-custom{
+    max-width: 30%;;
 }

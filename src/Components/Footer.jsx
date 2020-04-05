@@ -23,17 +23,20 @@ function Footer() {
                     </ul>
                 </div>
                 <div className="col-4 Footer__Icons">
-                    <div className="Footer__Icon">
-                        <a href="http://" target="_blank" rel="noopener noreferrer">
-                            <i class="fa fa-github-alt fa-2x text-white"></i>
-                            {/* <p className="" id="msgG">LedezmaG</p> */}
+                    <div>
+                        <a href="https://github.com/LedezmaG" target="_blank" rel="noopener noreferrer" className="Footer__Social-Item">
+                            <i class="fa fa-github-alt fa-2x"></i>
                         </a>
                     </div>
                     <div className="">
-                        <i class="fa fa-envelope fa-2x text-white"></i>
+                        <a href="mailto:israeledezmag@gmail.com" target="_blank" rel="noopener noreferrer" className="Footer__Social-Item">
+                            <i class="fa fa-envelope fa-2x"></i>
+                        </a>
                     </div>
                     <div className="">
-                        <i class="fa fa-whatsapp fa-2x text-white"></i>
+                        <a href="tel:+523334424120" target="_blank" rel="noopener noreferrer" className="Footer__Social-Item">
+                            <i class="fa fa-whatsapp fa-2x"></i>
+                        </a>
                     </div>
                 </div>
             </div>
