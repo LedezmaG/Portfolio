@@ -4,7 +4,7 @@ import trex from '../Assets/Img/T-rex.png';
 function AboutMe() {
     return(
         <div className="row">
-            <div className="col-7">
+            <div className="col-12 col-md-7">
                 <div className="About__Title">
                     Lororem 
                 </div>
@@ -13,13 +13,16 @@ function AboutMe() {
 
                 </div>
             </div>
-            <div className="col-5">
+            <div className="col-12 col-md-5">
                 
             </div>
-            <div className="col-7 img-fluid center-center">
-                <img src={trex} alt="T rex" className="About__Img-custom flicker" />
+            <div className="col-12 col-md-7 img-fluid center-center flicker">
+                <p className="About__Img-Text">
+                    Sorry, a t-rex ate this section
+                </p>
+                <img src={trex} alt="T rex" className="About__Img-custom " />
             </div>
-            <div className="col-5 About__Content-Contact">
+            <div className="col-12 col-md-5 About__Content-Contact">
                 <div className="About__Title">Contact</div>
                 <div className="About__Contact">
                     <a href="ttps://github.com/LedezmaG" target="_blank" rel="noopener noreferrer" className="About__Icon">

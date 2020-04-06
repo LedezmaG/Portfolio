@@ -7,11 +7,11 @@ function Footer() {
         <footer className="page-footer bg-dark">
             <div className="row">
 
-                <div className="col-5 Footer__Title ">
+                <div className="col-12 col-md-5 px-0 Footer__Title ">
                     David Israel <br/>
                     Ledezma Gurrola 
                 </div>
-                <div className="col-3 Footer__Content ">
+                <div className="col-12 col-md-3 Footer__Content ">
                     Menu
                     <ul className="Footer__Menu">
                         <li>
@@ -22,7 +22,7 @@ function Footer() {
                         </li>
                     </ul>
                 </div>
-                <div className="col-4 Footer__Icons">
+                <div className="col-12 col-md-4 Footer__Icons">
                     <div>
                         <a href="https://github.com/LedezmaG" target="_blank" rel="noopener noreferrer" className="Footer__Social-Item">
                             <i class="fa fa-github-alt fa-2x"></i>

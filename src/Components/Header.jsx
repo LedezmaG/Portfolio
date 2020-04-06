@@ -13,13 +13,17 @@ function Header() {
                         </Link>
                     </div>
                     
-                    <ul class="nav navbar-nav navbar-right ">
-                        <li>
-                            <a href="" className="Top__Menu">
-                                Menu
-                            </a>
-                        </li>
-                    </ul>
+                    <p className="Top__Menu nav navbar-nav navbar-right">
+                        Menu
+                        <ul class="nav navbar-nav navbar-right ">
+                            <li>
+                                <Link to="/Projets" >Projets</Link>
+                            </li>
+                            <li>
+                                <Link to="/AboutMe" >About Me</Link>
+                            </li>
+                        </ul>
+                    </p>
                 </div>
             </nav>
         </header>
