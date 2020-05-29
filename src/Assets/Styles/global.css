@@ -5,15 +5,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 /* For Numbers */
 @import url('https://fonts.googleapis.com/css2?family=Codystar&display=swap');
-
+/* Global styles */
+:root {
+    --color_primary: #03BBDA;
+    --color_secundary: #8FEBF5;
+    --color_red: rgba(225, 48, 51, 0.705);
+    --color_background: #F4F2F2;
+}
 body{
     overflow-x: hidden;
     font-family: 'Major Mono Display', monospace !important;
 }
 ::selection {
-    background: rgba(225, 48, 51, 0.705);
+    background: var(--color_red);
     color: white;
-    text-shadow: 1px 1px #fff;
+    text-shadow: 1px 1px white;
 }
 .flex{
     display: flex;
@@ -24,7 +30,7 @@ body{
     align-items: center;
 }
 #App{
-    background-color: #F4F2F2;
+    background-color: var(--color_background);
 }
 
 #content{
@@ -64,7 +70,7 @@ header{
 }
 .Home__Link:hover{
     text-decoration: none !important;
-    color: rgba(225, 48, 51, 0.705) !important;
+    color: var(--color_red) !important;
 }
 .Home__Link:hover .Home__Number{
     background-color: black;
@@ -97,11 +103,11 @@ header{
 }
 .Top__Title:hover{
     text-decoration: none;
-    color: rgba(225, 48, 51, 0.705);
+    color: var(--color_red);
 }
 .Top__Menu:hover{
     text-decoration: none;
-    color: rgba(225, 48, 51, 0.705);
+    color: var(--color_red);
 }
 .Top__Menu{
     font-family: 'Major Mono Display', monospace;
@@ -130,7 +136,7 @@ header{
     text-decoration: none;
 }
 .Top__Menu li a:hover {
-    color: rgba(225, 48, 51, 0.705);
+    color: var(--color_red);
     text-decoration: none;
 }
 
@@ -189,7 +195,7 @@ header{
     color: white;
 }
 .Footer__Social-Item:hover{    
-    color: rgba(225, 48, 51, 0.705);
+    color: var(--color_red);
 }
 .Footer__Menu{
     list-style:none
@@ -200,7 +206,7 @@ header{
 }
 .Footer__Menu-item:hover{
     text-decoration: none;
-    color: rgba(225, 48, 51, 0.705);
+    color: var(--color_red);
 }
 
 .btn__xl{

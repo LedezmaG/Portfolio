@@ -25,7 +25,7 @@ function AboutMe() {
             <div className="col-12 col-md-5 About__Content-Contact">
                 <div className="About__Title">Contact</div>
                 <div className="About__Contact">
-                    <a href="ttps://github.com/LedezmaG" target="_blank" rel="noopener noreferrer" className="About__Icon">
+                    <a href="https://github.com/LedezmaG" target="_blank" rel="noopener noreferrer" className="About__Icon">
                         <span className="About__Icon-Text">LedezmaG</span> 
                         <i class="fa fa-github-alt fa-2x "></i>
                     </a>
