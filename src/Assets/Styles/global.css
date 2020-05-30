@@ -94,8 +94,8 @@ header{
 /* Header */
 
 .Top__Title{
-    font-family: 'Major Mono Display', monospace;
-    font-size: 1rem !important;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5rem !important;
     color: black;
     text-align: right;
     -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
@@ -110,11 +110,12 @@ header{
     color: var(--color_red);
 }
 .Top__Menu{
-    font-family: 'Major Mono Display', monospace;
+    font-family: 'Bebas Neue', cursive;
     font-size: 1rem;
     color: black;
     text-align: right;
     padding: 0px 0px 25px 25px;
+    font-weight: 900;
 }
 .Top__Menu ul {
     display: none;
@@ -202,7 +203,7 @@ header{
 }
 .Footer__Menu-item{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 .Footer__Menu-item:hover{
     text-decoration: none;
@@ -255,7 +256,9 @@ header{
 }
 .About__Icon:hover{
     text-decoration: none;
-    color: black;
+    color: white;
+    background-color: black;
+    padding: 0px 5px;
 }
 .About__Icon-Text{
     padding: 5px;
@@ -269,6 +272,16 @@ header{
     max-width: 30%;;
 }
 
+/* Contact */
+.Contact__title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 10rem;
+    font-weight: 300;
+}
+.Contact__body{
+    font-size: 2.5rem;
+    font-weight: 300;
+}
 /* Sidebar */
 
 #sidebar-wrapper {
@@ -309,4 +322,19 @@ header{
     pointer-events: none;
     font-size: 15rem;
     margin: 0rem;
+}
+.img-content{
+    height: 20rem !important;
+}
+.Home__page-title{
+    font-size: 6rem;
+    font-family: 'Major Mono Display', monospace !important;
+}
+.Projet__item{
+    font-size: 1rem;
+    font-family: 'Codystar', cursive !important;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: px;
 }

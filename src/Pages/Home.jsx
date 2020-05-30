@@ -1,41 +1,24 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import ProjetItem from "./../Components/projetItem";
 
 function Home() {
     return(
         
         <>
-            <div className="Home__Item ">
-                <a to="Project" className="Home__Link">
-                    <p className="Home__Title">
-                        <span className="Home__Number" >#1</span>
-                        Projet 1
+            <div className="row">
+                <div className="col-3">
+                    <p className="Home__page-title">
+                        WO<br/>
+                        RK.
                     </p>
-                    <a href="/" className="btn btn__xl btn-Home vibrate">Demo</a>
-                    <hr className="Home__Line" />
-                </a>
+                </div>
+                <div className="col-9">
+                    <ProjetItem id="1" name="Rick and morty" tec="html/css, React.js" link="" />
+                    <ProjetItem id="2" name="WeatherApp" tec="html/css, React.js" link="" />
+                    <ProjetItem id="3" name="Badges" tec="html/css, React.js" link="" />
+                </div>
             </div>
-            <div className="Home__Item ">
-                <a to="Project" className="Home__Link">
-                    <p className="Home__Title">
-                        <span className="Home__Number" >#2</span>
-                        Projet 2
-                    </p>
-                    <a href="/" className="btn btn__xl btn-Home vibrate">Demo</a>
-                    <hr className="Home__Line" />
-                </a>
-            </div>
-            <div className="Home__Item ">
-                <a to="Project" className="Home__Link">
-                    <p className="Home__Title">
-                        <span className="Home__Number" >#3</span>
-                        Projet 3
-                    </p>
-                    <a href="/" className="btn btn__xl btn-Home vibrate">Demo</a>
-                    <hr className="Home__Line" />
-                </a>
-            </div>
-            
             
         </>
     

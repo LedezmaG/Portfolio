@@ -12,18 +12,19 @@ function Header() {
                             Ledezma Gurrola
                         </Link>
                     </div>
+                    <div className="d-flex">
+
+                        <div className="mx-3 ">
+                            <Link className="Footer__Menu-item" to="/" >Work</Link>
+                        </div>
+                        <div className="mx-3 text-dark">
+                            <Link className="Footer__Menu-item" to="/AboutMe" >Profile</Link>
+                        </div>
+                        <div className="mx-3 text-dark">
+                            <Link className="Footer__Menu-item" to="/Contact" >Contact</Link>
+                        </div>
+                    </div>
                     
-                    <p className="Top__Menu nav navbar-nav navbar-right mr-5">
-                        Menu
-                        <ul class="nav navbar-nav navbar-right ">
-                            <li>
-                                <Link to="/" >Projets</Link>
-                            </li>
-                            <li>
-                                <Link to="/AboutMe" >About Me</Link>
-                            </li>
-                        </ul>
-                    </p>
                 </div>
             </nav>
         </header>

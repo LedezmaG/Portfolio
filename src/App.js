@@ -1,9 +1,10 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Home from './Pages/Home';
 import Layout from './Pages/Layout';
+import Home from './Pages/Home';
+import Contact from './Pages/Contact';
+import AboutMe from './Pages/AboutMe';
 import NotFound from './Pages/NotFound';
-import Project from './Pages/AboutMe';
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
         <Layout>
           <Switch>
             <Route exact path="/" component={ Home } />
-            <Route exact path="/Project" component={ Project } />
-            <Route exact path="/AboutMe" component={ Project } />
+            <Route exact path="/Project" component={ Home } />
+            <Route exact path="/AboutMe" component={ AboutMe } />
+            <Route exact path="/Contact" component={ Contact } />
             <Route component={ NotFound } />
           </Switch>
         </Layout>
