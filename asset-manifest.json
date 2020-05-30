@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.eb2cbef0.chunk.css",
-    "main.js": "/Portfolio/static/js/main.d54e9669.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.d54e9669.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.fa94ea9d.chunk.css",
+    "main.js": "/Portfolio/static/js/main.aec616d8.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.aec616d8.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.d9fde4e9.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.d9fde4e9.js.map",
     "static/css/2.89f067aa.chunk.css": "/Portfolio/static/css/2.89f067aa.chunk.css",
-    "static/js/2.2a5d9120.chunk.js": "/Portfolio/static/js/2.2a5d9120.chunk.js",
-    "static/js/2.2a5d9120.chunk.js.map": "/Portfolio/static/js/2.2a5d9120.chunk.js.map",
+    "static/js/2.578204c9.chunk.js": "/Portfolio/static/js/2.578204c9.chunk.js",
+    "static/js/2.578204c9.chunk.js.map": "/Portfolio/static/js/2.578204c9.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.f4b7a36f93c85b61662d32fff9a38d48.js": "/Portfolio/precache-manifest.f4b7a36f93c85b61662d32fff9a38d48.js",
+    "precache-manifest.59e46a1e85abe50956e85ce15e414a0d.js": "/Portfolio/precache-manifest.59e46a1e85abe50956e85ce15e414a0d.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/2.89f067aa.chunk.css.map": "/Portfolio/static/css/2.89f067aa.chunk.css.map",
-    "static/css/main.eb2cbef0.chunk.css.map": "/Portfolio/static/css/main.eb2cbef0.chunk.css.map",
-    "static/js/2.2a5d9120.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.2a5d9120.chunk.js.LICENSE.txt",
-    "static/media/T-rex.png": "/Portfolio/static/media/T-rex.0994c888.png"
+    "static/css/main.fa94ea9d.chunk.css.map": "/Portfolio/static/css/main.fa94ea9d.chunk.css.map",
+    "static/js/2.578204c9.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.578204c9.chunk.js.LICENSE.txt",
+    "static/media/T-rex.png": "/Portfolio/static/media/T-rex.0994c888.png",
+    "static/media/phone.png": "/Portfolio/static/media/phone.3b7191b9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d9fde4e9.js",
     "static/css/2.89f067aa.chunk.css",
-    "static/js/2.2a5d9120.chunk.js",
-    "static/css/main.eb2cbef0.chunk.css",
-    "static/js/main.d54e9669.chunk.js"
+    "static/js/2.578204c9.chunk.js",
+    "static/css/main.fa94ea9d.chunk.css",
+    "static/js/main.aec616d8.chunk.js"
   ]
 }
